@@ -53,7 +53,7 @@ var name = a + b;
 
 1. Sukhoi State Technical University Of Gomel (2009-2014), power engineer.
 2. JavaScript https://learn.javascript.ru/
-3. HTML Academy
+3. HTML Academy.
 
 ## English
 
