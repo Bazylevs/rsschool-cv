@@ -160,7 +160,7 @@ footer {
   text-align: center;
 }
 .contacts-list {
-  list-style-type: square;
+  list-style-type: none;
 }
 .git-link {
   text-decoration: none;
@@ -173,4 +173,8 @@ footer {
 }
 .social-network_item {
   line-height: 30px;
+}
+.git-li {
+  display: flex;
+  align-items: center;
 }
