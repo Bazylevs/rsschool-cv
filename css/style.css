@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  /* background-color: rgb(165, 208, 243); */
+  /* background-color: rgb(48, 27, 27); */
+  background-color: rgb(126, 125, 128);
+  color: beige;
+}
+.wrapper {
+  max-width: 1070px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  background-color: rgb(178, 180, 182);
+}
+.header {
+  max-width: 1070px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+}
+.nav-item {
+  margin-left: 15px;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+  color: #726283;
+}
+.nav-link:hover {
+  border-bottom: 2px solid rgb(53, 50, 250);
+}
+.title-h1 {
+  border: 2px solid #726283;
+  padding: 10px 10px 10px 40px;
+  font-weight: 600;
+  max-width: 160px;
+}
+.puck-title {
+  display: flex;
+  justify-content: space-between;
+}
+.puck {
+  margin-right: 35px;
+}
+.title-h2 {
+  color: beige;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.title-h2 span {
+  color: #e7be66;
+  font-weight: 700;
+}
+.box-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-photo {
+  border: 5px solid beige;
+  margin-top: 3px;
+}
+.p-about {
+  line-height: 1.6;
+  width: 760px;
+}
+.text-center {
+  text-align: center;
+  padding-top: 50px;
+}
+.education {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  grid-gap: 15px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.title-h3 {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.educ-text {
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.sukhoi_text {
+  width: 240px;
+}
+.educ-link {
+  color: #7c27d6;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+  display: block;
+  margin: 10px auto;
+  width: fit-content;
+}
+.educ-link:hover {
+  border-bottom: 2px solid rgb(53, 50, 250);
+}
+.education-icon {
+  display: block;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+  display: block;
+  margin: 15px auto;
+  width: min-content;
+}
+.education-item {
+  display: block;
+  margin: 0 auto;
+  justify-items: center;
+  width: fit-content;
+}
+footer {
+  background-color: rgb(178, 180, 182);
+  color: #726283;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.year-2021-item {
+  color: #726283;
+  font-size: 28px;
+  font-weight: 700;
+}
+.title-h4 {
+  text-align: center;
+}
+.year-2021-item {
+  text-align: center;
+}
+.contacts-list {
+  list-style-type: square;
+}
+.git-link {
+  text-decoration: none;
+  color: #7c27d6;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+.git-link:hover {
+  border-bottom: 2px solid rgb(53, 50, 250);
+}
+.social-network_item {
+  line-height: 30px;
+}
