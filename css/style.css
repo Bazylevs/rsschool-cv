@@ -88,6 +88,30 @@ body {
   text-align: center;
   padding-top: 50px;
 }
+.box-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.code {
+  background-color: rgb(178, 180, 182);
+}
+.code-h2 {
+  margin-bottom: 15px;
+}
+.codewars {
+  width: 500px;
+  text-align: justify;
+}
+.eng {
+  margin-bottom: 15px;
+}
+.box-description-item2 {
+  width: 504px;
+}
+.english-p {
+  text-align: center;
+}
 .education {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr 1fr;
@@ -154,13 +178,23 @@ footer {
   font-weight: 700;
 }
 .title-h4 {
-  text-align: center;
+  padding-left: 40px;
+  margin-bottom: 16px;
+}
+.year-2021 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1;
 }
 .year-2021-item {
   text-align: center;
 }
 .contacts-list {
   list-style-type: none;
+}
+.contacts {
+  flex: 1 1;
 }
 .git-link {
   text-decoration: none;
@@ -177,4 +211,13 @@ footer {
 .git-li {
   display: flex;
   align-items: center;
+}
+.github-pic {
+  padding-left: 10px;
+}
+.rss_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1;
 }
